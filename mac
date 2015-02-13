@@ -185,3 +185,10 @@ fi
 if [ -f "$HOME/.laptop.local" ]; then
   . "$HOME/.laptop.local"
 fi
+
+fancy_echo "installing caskroom and other awesomeness"
+
+brew_install_or_upgrade 'caskroom/cask/brew-cask'
+brew_cask_install 'google-chrome'
+brew_cask_install 'sublime-text'
+brew_cask_install 'codekit'
