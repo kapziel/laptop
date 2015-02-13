@@ -15,8 +15,6 @@ We support:
 * [OS X Mavericks (10.9)](https://itunes.apple.com/us/app/os-x-mavericks/id675248567)
 * [OS X Yosemite (10.10)](https://www.apple.com/osx/)
 
-Older versions may work but aren't regularly tested. Bug reports for older
-versions are welcome.
 
 Install
 -------
@@ -24,7 +22,7 @@ Install
 Download, review, then execute the script:
 
 ```sh
-curl --remote-name https://raw.githubusercontent.com/thoughtbot/laptop/master/mac
+curl --remote-name https://raw.githubusercontent.com/kapziel/laptop/kapziel_laptop/mac
 less mac
 sh mac 2>&1 | tee ~/laptop.log
 ```
@@ -79,6 +77,7 @@ What it sets up
 [The Silver Searcher]: https://github.com/ggreer/the_silver_searcher
 [Tmux]: http://tmux.sourceforge.net/
 [Zsh]: http://www.zsh.org/
+[Caskroom]: https://github.com/caskroom/homebrew-cask
 
 It should take less than 15 minutes to install (depends on your machine).
 
